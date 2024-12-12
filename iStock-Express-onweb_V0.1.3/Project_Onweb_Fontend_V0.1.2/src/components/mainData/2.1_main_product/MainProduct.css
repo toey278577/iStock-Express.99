@@ -1,0 +1,372 @@
+.content{
+    margin-left: 350px;
+    margin-top: 50px;
+    
+    }
+    /* MainProduct.css */
+.table-responsive {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.table th {
+  background-color: #343a40;
+  color: #ffffff;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.table td {
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.table-bordered th, .table-bordered td {
+  border: 1px solid #ddd;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 8px 16px;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+  transform: scale(1.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.table-dark {
+  background-color: #212529;
+}
+/* ให้ตารางดูมีระเบียบมากขึ้น */
+.table-responsive {
+    /* border-radius: 10px; */
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+  }
+  
+  .table th, .table td {
+    padding: 12px 15px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f8f9fa; /* สีพื้นหลังของแถวที่คู่ */
+  }
+  
+  .table tbody tr:hover {
+    background-color: #e9ecef; /* สีพื้นหลังเมื่อ hover */
+  }
+  
+  .table-bordered th, .table-bordered td {
+    border: 1px solid #ddd;
+  }
+  
+  .table-hover tbody tr:hover {
+    cursor: pointer;
+  }
+  
+  .badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+  }
+  
+  .badge-success {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .badge-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  .table {
+    width: 100%;
+    table-layout: auto; /* ให้ตารางปรับขนาดตามเนื้อหา */
+  }
+  
+  .table th, .table td {
+    white-space: nowrap; /* ป้องกันไม่ให้ข้อความห่อ */
+    overflow: hidden;
+    text-overflow: ellipsis; /* ใช้สามจุด '...' เมื่อข้อความเกิน */
+  }
+  
+  .table th {
+    font-size: 1rem; /* ปรับขนาดตัวอักษร */
+  }
+  
+  .table td {
+    font-size: 0.9rem; /* ปรับขนาดตัวอักษร */
+  }
+  
+  /* ปรับความกว้างของแต่ละคอลัมน์ได้ตามต้องการ */
+  .table th:nth-child(1),
+  .table td:nth-child(1) {
+    width: 100px; /* ความกว้างของคอลัมน์แรก */
+  }
+  
+  .table th:nth-child(2),
+  .table td:nth-child(2) {
+    width: 150px; /* ความกว้างของคอลัมน์ที่สอง */
+  }
+  
+  .table th:nth-child(3),
+  .table td:nth-child(3) {
+    width: 120px; /* ความกว้างของคอลัมน์ที่สาม */
+  }
+  
+  /* เพิ่มความกว้างให้กับคอลัมน์อื่น ๆ ตามต้องการ */
+  .btn-primary {
+    background-color: #007bff; /* แก้ไขสีให้เป็นสีฟ้าที่คุณต้องการ */
+    border-color: #007bff;
+  }
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  .buttonexim{
+    margin-left: 30px;
+  }
+
+  /* Popup container */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Popup inner styling */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  max-width: 800px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.popup-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+h2 {
+  grid-column: span 2;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 7.5px); /* Adjust width to fit in two columns */
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-control {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.checkbox-label {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+.checkbox-group {
+  display: flex;
+  gap: 15px; /* Adjust spacing between checkboxes */
+  flex-wrap: wrap; /* Allow wrapping to next line */
+  width: 100%;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+
+/* Form styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: 600;
+}
+
+/* Input field styling */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form-control:focus {
+  border-color: #FFA500;
+  box-shadow: 0 0 5px rgba(255, 165, 0, 0.5);
+}
+
+/* Checkbox label styling */
+.form-group label input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Button styling */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary {
+  background-color: #006eff;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #76c8ff;
+  transform: translateY(-3px);
+}
+
+.btn-secondary {
+  background-color: #d3d3d3;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background-color: #b0b0b0;
+  transform: translateY(-3px);
+}
+
+/* Optional styling for better visual hierarchy */
+.btn + .btn {
+  margin-left: 10px;
+}
+
+/* Add any other styles as needed */
+.buttonrigte{
+  margin-right: 30px;
+}

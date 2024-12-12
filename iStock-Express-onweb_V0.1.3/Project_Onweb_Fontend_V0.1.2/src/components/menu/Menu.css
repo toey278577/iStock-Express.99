@@ -1,0 +1,91 @@
+/* Sidebar Styling */
+.sidebar {
+  height: 100vh;
+  background: linear-gradient(135deg, #fff, #ffffff);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 275px;
+  overflow-y: auto;
+  transition: width 0.3s;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  display: flex;
+  flex-direction: column; /* Make the sidebar a column */
+}
+
+.text-center img {
+  max-width: 100px;
+  transition: transform 0.3s;
+}
+
+.text-center img:hover {
+  transform: scale(1.1);
+}
+
+.list-group-item {
+  font-weight: 600;
+  color: #1f1717;
+  background: transparent;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 15px;
+  transition: all 0.3s;
+}
+
+.list-group-item.active {
+  color: #1566fd;
+  background-color: rgba(158, 158, 158, 0.2);
+}
+
+.list-group-item:hover {
+  background-color: rgba(158, 158, 158, 0.2);
+}
+
+.submenu {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 5px;
+  padding-left: 20px;
+  border-left: 2px solid #022add;
+  border-radius: 5px;
+}
+
+.submenu a {
+  text-decoration: none;
+}
+
+.submenu-item {
+  font-weight: 500;
+  color: #1f1717;
+  background: none;
+  border: none;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+}
+
+.submenu-item:hover {
+  color: #000000;
+  background: rgba(173, 162, 162, 0.15);
+  border-radius: 5px;
+}
+
+/* Logout Button at the Bottom */
+.logout-container {
+  margin-top: auto; /* Push the logout button to the bottom */
+  width: 100%;
+}
+
+.logout-container .list-group-item {
+  background-color: #e4e4e4;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+.logout-container .list-group-item:hover {
+  background-color: rgba(253, 74, 74, 0.15);
+}
+
+.textonleft{
+  display: flex;
+}

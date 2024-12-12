@@ -1,0 +1,9 @@
+
+.sticky-navbar {
+    position: sticky; /* ยึด Navbar ให้ติดอยู่ด้านบน */
+    top: 0; /* ระบุให้ติดด้านบนของหน้า */
+    z-index: 1; /* ทำให้ Navbar อยู่ด้านหน้าของเนื้อหาอื่น */
+    background-color: white; /* ตั้งสีพื้นหลังเพื่อให้ Navbar ชัดเจน */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* เพิ่มเงาเพื่อความสวยงาม */
+  }
+  

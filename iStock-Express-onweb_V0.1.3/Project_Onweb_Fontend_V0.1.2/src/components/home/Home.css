@@ -1,0 +1,23 @@
+.content{
+margin-left: 350px;
+margin-top: 50px;
+
+
+}
+.content1 {
+    position: relative;
+    height: 100vh; /* ให้สูงเต็มจอ */
+    display: flex;
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center; /* จัดตำแหน่งให้อยู่ตรงกลาง */
+    background-color: #ffffff; /* สีพื้นหลัง */
+    overflow: hidden;
+  }
+  
+  .logo-background {
+    max-width: 70%; /* ขนาดใหญ่ 70% ของหน้าจอ */
+    opacity: 0.1; /* ทำให้สีจาง */
+    position: absolute; /* เพื่อให้จัดตำแหน่งได้ง่าย */
+  }
+  

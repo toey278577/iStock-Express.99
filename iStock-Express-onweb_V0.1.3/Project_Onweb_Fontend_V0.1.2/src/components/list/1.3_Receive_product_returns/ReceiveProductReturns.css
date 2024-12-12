@@ -1,0 +1,382 @@
+/* .content{
+    margin-left: 380px;
+    margin-top: 0px;
+} */
+
+.container-receivrProduct{
+  margin-left: 16%;
+  margin-right: 1%;
+}
+
+/* Receive_product.css */
+
+/* Background Styling */
+.bgcolor {
+    background: linear-gradient(135deg, #ffffff, #f0f8ff);
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Title Styling */
+  .text-title {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #34495e;
+  }
+  
+  /* Custom Table Styling */
+  .custom-table {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-table th {
+    background-color: #2980b9;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .custom-table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+  }
+  
+  .custom-table tr:hover {
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button Styling */
+  button {
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Layout */
+  .table-responsive {
+    margin: auto;
+    max-width: 95%;
+  }
+  /* Receive_product.css */
+
+/* Background Styling */
+.bgcolor {
+  background: linear-gradient(135deg, #ffffff, #eef5ff);
+  min-height: 100vh;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Title Styling */
+.text-title {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+/* Custom Table Styling */
+.custom-table {
+  background-color: #b4b4b4;
+  border: 1px solid #b4b4b4;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* .custom-table th {
+  background-color: #2980b9;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+} */
+
+.custom-table td {
+  text-align: center;
+  padding: 12px;
+  font-size: 0.95rem;
+}
+
+.custom-table tr {
+  transition: background-color 0.3s;
+}
+
+.custom-table tr:hover {
+  background-color: #ffffff;
+}
+
+/* Button Styling */
+button {
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 5px 10px;
+  color: #fff;
+  transition: transform 0.3s, background-color 0.3s ease;
+  border: none;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Individual Button Styles */
+.btn-warning {
+  background-color: #f39c12;
+}
+
+.btn-warning:hover {
+  background-color: #e67e22;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+}
+
+.btn-danger:hover {
+  background-color: #c0392b;
+}
+
+.btn-success {
+  background-color: #2ecc71;
+}
+
+.btn-success:hover {
+  background-color: #27ae60;
+}
+
+/* Responsive Layout */
+.table-responsive {
+  margin: auto;
+  max-width: 95%;
+  overflow-x: auto;
+}
+
+/* Center "Insert" Button */
+.btn-primary {
+  background-color: #3498db;
+  border-radius: 25px;
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+  transform: scale(1.1);
+}
+
+/* สไตล์สำหรับปุ่มสีส้ม */
+.btn-gradient-orange {
+  background: linear-gradient(135deg, #FFA500, #FF8C00);
+  border: 1px solid #FF8C00;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-gradient-orange:hover {
+  background: linear-gradient(135deg, #FF8C00, #FFA500);
+  border: 1px solid #FFA500;
+  color: #fff;
+}
+
+/* สไตล์สำหรับปุ่มสีเขียว */
+.btn-gradient-green {
+  background: linear-gradient(135deg, #28a745, #218838);
+  border: 1px solid #218838;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-gradient-green:hover {
+  background: linear-gradient(135deg, #218838, #28a745);
+  transform: scale(1.05);
+  border: 1px solid #28a745;
+  color: #fff;
+}
+/* สไตล์สำหรับปุ่มเพิ่มข้อมูล */
+.btn-gradient-blue {
+  background: linear-gradient(135deg, #4e73df, #224abe);
+  border: 1px solid #224abe;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-gradient-blue:hover {
+  background: linear-gradient(135deg, #224abe, #4e73df);
+  border: 1px solid #4e73df;
+  color: #fff;
+}
+/* Custom CSS */
+.form-control-custom {
+  width: 100%; /* ให้ฟอร์มควบคุมความกว้างเต็มที่ */
+}
+/* Optional CSS adjustments */
+.contentleft {
+  max-width: 80%; /* Makes the container width wider */
+  margin: auto;
+  margin-left: 100px;
+}
+
+.card {
+  max-width: 100%; /* Ensures the card adjusts to the available width */
+}
+
+.card-body-receiveProduct {
+  padding: 20px;
+  margin-bottom: 3%;
+  margin-left: -3.5%;
+  margin-right: -3.5%;
+  
+}
+.btn-gradient-cyan {
+  background: linear-gradient(135deg, #73c5f5, #0682f7);
+  border: 1px solid #e6e6e6;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-gradient-cyan:hover {
+  background: linear-gradient(135deg, #0682f7, #73c5f5);
+  border: 1px solid #e6e6e6;
+  color: #fff;
+}
+/* ปุ่มสีแดงแบบ Gradient */
+.btn-gradient-red {
+  background: linear-gradient(135deg, #e74c3c, #ff6b6b);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px; /* เพิ่มความโค้งมน */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  padding: 10px 20px; /* ขยายปุ่มให้ใหญ่ขึ้น */
+  font-size: 16px;
+}
+
+.btn-gradient-red:hover {
+  background: linear-gradient(135deg, #c0392b, #e55050);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* เพิ่มเงาเมื่อ hover */
+}
+
+.btn-gradient-red:active {
+  transform: scale(0.95); /* เอฟเฟกต์กดปุ่ม */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+th {
+    white-space: nowrap;
+    text-align: center;
+  }
+  
+  /* Ensure input fields inside the table don't wrap */
+  table td input {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Prevent row shifting when editing */
+.table td, .table th {
+    vertical-align: middle; /* Keep content vertically aligned */
+  }
+  
+  /* Ensure table cells have a consistent height */
+  .table td input {
+    height: 35px; /* Set a fixed height for the input fields */
+    width: 100%; /* Ensure the input takes the full width of the cell */
+    box-sizing: border-box; /* Prevents overflow */
+  }
+  
+  /* Prevent action buttons from shifting */
+  .table td button {
+    white-space: nowrap; /* Ensure buttons don't wrap */
+    min-width: 80px; /* Set a minimum width to keep buttons aligned */
+  }
+  /* Prevent text wrapping in table cells */
+.table td, .table th {
+    white-space: nowrap; /* Prevent text from wrapping to a new line */
+    overflow: hidden; /* Hide overflow content */
+    text-overflow: ellipsis; /* Show an ellipsis (...) if the content overflows */
+  }
+  
+  /* Optional: Set a maximum width for columns to improve layout */
+  .table td, .table th {
+    max-width: 200px; /* Adjust the max width as needed */
+  }
+  
+  /* Custom styles for input shadow */
+.form-control,
+.form-select,
+textarea {
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus,
+textarea:focus {
+  border-color: #FF4500; /* สีขอบเมื่อคลิก */
+  box-shadow: 0px 4px 8px rgba(255, 69, 0, 0.3); /* เงาสีแดง */
+}
+
+.card {
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn-danger {
+  background-color: #ff6347; /* สีปุ่ม */
+  border: none;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-danger:hover {
+  background-color: #ff4500; /* สีปุ่มเมื่อ Hover */
+  box-shadow: 0px 6px 8px rgba(255, 69, 0, 0.4);
+}
+/* Custom button styles */
+.btn-custom {
+  background: linear-gradient(135deg, #ff7f50, #ff4500); /* สีไล่เฉด */
+  color: #fff; /* สีข้อความ */
+  border: none;
+  padding: 8px 16px; /* ลดขนาด padding */
+  font-size: 1rem; /* ลดขนาดตัวอักษร */
+  font-weight: bold;
+  border-radius: 40px; /* ลดความมน */
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-custom:hover {
+  background: linear-gradient(135deg, #ff6347, #e63946); /* สีเมื่อ Hover */
+  box-shadow: 0px 4px 8px rgba(255, 69, 0, 0.5); /* เงา */
+  transform: translateY(-2px); /* เลื่อนขึ้นเล็กน้อย */
+}
+
+.btn-custom:active {
+  background: linear-gradient(135deg, #e63946, #ff4500); /* สีเมื่อคลิก */
+  box-shadow: 0px 2px 4px rgba(255, 69, 0, 0.5); /* เงาเข้มขึ้น */
+  transform: translateY(1px); /* เลื่อนลงเล็กน้อย */
+}
+
+.btn-custom i {
+  font-size: 1.2rem; /* ลดขนาดไอคอน */
+}
+/*Scrollbar*/
+.table-responsive {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: auto;
+}

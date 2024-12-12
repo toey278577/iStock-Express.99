@@ -1,0 +1,186 @@
+/* ขนาดของ scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* ความกว้าง */
+  height: 10px; /* ความสูง (สำหรับ scrollbar แนวนอน) */
+}
+
+/* สีของแถบ scrollbar */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* พื้นหลังของแทร็ค */
+}
+
+/* สีของตัวเลื่อน scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #888; /* สีของตัวเลื่อน */
+  border-radius: 5px; /* ปรับมุมให้โค้งมน */
+}
+
+/* สีของตัวเลื่อนเมื่อ hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* สำหรับ Firefox */
+html {
+  scrollbar-width: thin; /* "auto" หรือ "thin" */
+  scrollbar-color: #888 #f1f1f1; /* สีตัวเลื่อน / สีพื้นหลัง */
+}
+
+
+/* ปุ่มลบ */
+.btn-pay-delete {
+  background-color: #ff4800;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-pay-edit:hover {
+  background-color: rgb(194, 48, 4);
+}
+
+.btn-pay-save-green {
+  background-color: #32c53f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-pay-save-green:hover {
+  background-color: #1f7a26;
+}
+
+/* ปุ่มแก้ไข */
+.btn-pay-edit {
+  background-color: #f39c12;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 5px; /* เพิ่มระยะห่าง 10px ระหว่างปุ่มแก้ไขและปุ่มลบ */
+}
+
+.btn-pay-edit-green:hover {
+  background-color: #e67e22;
+}
+
+/* ปุ่มเพิ่มข้อมูล */
+.btn-gradient-blue {
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.btn-gradient-blue:hover {
+  background: linear-gradient(to right, #0056b3, #003d80);
+}
+
+/* การ์ด */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-payProduct{
+  margin-bottom: 4% ;
+}
+
+/* ปุ่มส่วนหัว */
+.btn-gradient-red {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.head-table{
+  position: sticky;
+  top: 0;
+  
+}
+
+.btn-gradient-red:hover {
+  background: linear-gradient(to right, #ff2e63, #ff2a1b);
+}
+
+/* ตาราง */
+.table thead th {
+  background-color: #f8f9fa;
+  color: #343a40;
+  text-align: center;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* พื้นหลัง */
+.bgcolor {
+  background-color: #f5f5f5;
+}
+
+/* ข้อความหัวข้อ */
+.text-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.alert-center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  width: auto;
+  max-width: 80%;
+}
+
+.btn-cancel {
+  color: #ffff;
+  background-color: #ff3806;
+
+  
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+/* ปุ่ม Clear */
+.btn-secondary {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+/*Container PayProduct Page*/
+.container-payProduct {
+  margin-left: 19%;
+  margin-top: 3%;
+  margin-right: 2.5%;
+}
+
+.table-container {
+  margin-left: 2%;
+  margin-right: 2%;
+  max-height: 400px; /* ปรับความสูงตามต้องการ */
+  overflow-y: auto; /* ทำให้สามารถเลื่อนลงได้ */
+}

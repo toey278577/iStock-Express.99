@@ -1,0 +1,74 @@
+
+// timestamp form
+2024-04-08 11:19:29.531+00
+
+2.1 main_product ข้อมูลสินค้า
+2.5 seller ผู้จำหน่าย
+2.6 customer ลูกค้า 
+2.7 storage_area ที่เก็บสินค้า
+2.8 employee พนักงาน
+2.9 receive_type ประเภทการรับ
+2.10 payment_type ประเภทการจ่าย
+2.11 return_type ประเภทการคืน
+2.12 issue_type ประเภทปัญหา
+2.14 transfer_type ประเภทการโอนย้าย
+2.15 booking_type ประเภทการจอง
+
+***********************************************************************************************
+note git 
+
+git add . หรือ git add ชื่อไฟล์
+git commit -m "ข้อความอธิบายการเปลี่ยนแปลง"
+
+git push origin ชื่อbranchที่มีอยู่
+เช็คbranch git branch
+สร้างbranchใหม่ git branch ชื่อbranch
+
+
+git push origin ชื่อbranch
+
+**********************************************************************************************
+
+toey278577
+
+**********************************************************************************************
+genkey
+http://localhost:5000/login/genkey
+{
+    "password": "123"
+}
+**********************************************************************************************
+login
+http://localhost:5000/login/
+{
+    "username":"Test",
+    "password": "123"
+}
+**********************************************************************************************
+ค้นหา พนักงาน
+http://localhost:5000/employee/search?keyword=Earth
+ค้นหา ลูกค้า
+http://localhost:5000/customer/search?keyword=0
+
+**********************************************************************************************
+http://localhost:5000/receive/createReceive
+{
+  "document_No_receive": "DOC-12345",
+  "note_receive": "This is a sample note",
+  "ref_No_receive": "REF-98765",
+  "delivery_No_receive": "DEL-54321",
+  "status_receive": "Pending",
+  "date_receive": "2024-04-08",
+    "employeeId": "1",
+    "receiveTypeId": 1,
+    "vendorId": 1,
+    "approvedById": 1
+}
+**********************************************************************************************
+http://localhost:5000/main_product/?x-access-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiYWNjZXNzVXNlciI6ImFkbWluIiwiaWF0IjoxNzMyNTA1MDQwLCJleHAiOjE3MzI1MDg2NDB9.yNZT7O77pe5p__pOBI_F9Mc6II4QcquZ-jhVGXlcbOQ
+
+**********************************************************************************************
+http://localhost:5000/payment_type
+***********
+headers = x-access-token
+CSV to Tale = >csv-to-md-table

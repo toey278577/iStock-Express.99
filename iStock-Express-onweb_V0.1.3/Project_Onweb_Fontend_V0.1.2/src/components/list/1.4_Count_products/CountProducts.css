@@ -1,0 +1,55 @@
+.containerCountProduct{
+    margin: 2.5% 1% 4% 15%;   
+    }
+
+.TextCountProductsH1  {
+  text-align: center;
+}
+
+.TextCountProductsP{
+  text-align: center;
+}
+
+.cardCountProductsTop{
+  background-image: linear-gradient(to right, #e74d3d, #fd7372);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px 5px 0 0;
+  border: 1px solid #ddd;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.TextCountProductTop{
+  margin: 0.5% 0 0.5% 1%;
+  color: white;
+}
+
+.cardBodyCountProductTop{
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 0 0 5px 5px;
+}
+
+/* card-header btn-gradient-red text-white */
+
+.card-header-countProduct-bottom { /*กำลังเเก้พี่ Class มันเชื่อมกันหลายไฟล์*/
+  padding: 10px;
+  margin-left: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, #e74c3c ,#fe6a6a);
+  color: white;
+  border-radius: 5px 5px 0 0;
+    
+}
+
+/* .table-countProduct-bottom{
+width: 100%;
+ table-layout: auto;
+ border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    border-collapse: separate;
+  border-spacing: 0;
+} */

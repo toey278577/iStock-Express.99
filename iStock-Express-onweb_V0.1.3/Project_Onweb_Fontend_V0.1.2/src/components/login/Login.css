@@ -1,0 +1,170 @@
+/* src/components/login.css */
+
+/* Style สำหรับ background ของหน้าล็อกอิน */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../img/img-1/stock.jpg');
+    /* background: linear-gradient(135deg, #002fff, #ffffff); */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    
+  }
+  
+  /* การจัดวางฟอร์มล็อกอิน */
+  .login-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ทำให้ชื่อหัวข้อใหญ่และมีระยะห่าง */
+  .login-card h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* การจัดระยะห่างในแต่ละช่อง input */
+  .form-label {
+    font-weight: 600;
+    color: #555;
+  }
+  
+  input.form-control {
+    border-radius: 8px;
+    border: 1px solid #c9c9c9;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* สไตล์ปุ่มล็อกอิน */
+  button[type="submit"] {
+    background-color: #000000;
+    border-color: #adadad;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #414040;
+    color: #ffffff;
+    border-color: #414040;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* การจัดระยะห่างของลิงก์ด้านล่าง */
+  .text-center {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .text-center a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .text-center a:hover {
+    text-decoration: underline;
+  }
+  /* เพิ่มแอนิเมชันให้กับ error message */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.alert {
+  animation: fadeIn 1s ease-out;
+}
+
+/* เพิ่มสไตล์ให้กับ input และปุ่ม */
+input.form-control, button {
+  border-radius: 30px; /* ทำให้มุมป้าน */
+}
+
+button:hover {
+  background-color: #ff8c00; /* สีพื้นหลังเมื่อ hover */
+  transition: background-color 0.3s ease;
+}
+
+/* เพิ่มสไตล์ให้กับ login card */
+.login-card {
+  padding: 30px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* เพิ่มเงาให้กับปุ่ม */
+.btn-primary {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* ปรับแต่งปุ่ม Login */
+.btn-login {
+  background: linear-gradient(45deg, #ff7e5f, #feb47b); /* ไล่สีจากชมพู-ส้ม */
+  border: none;
+  border-radius: 50px; /* มุมโค้งมน */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px 25px;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease; /* การเคลื่อนไหว */
+}
+
+.btn-login:hover {
+  background: linear-gradient(45deg, #feb47b, #ff7e5f); /* เปลี่ยนสีเมื่อวางเมาส์ */
+  transform: translateY(-0.5px); /* ทำให้ปุ่มลอยขึ้นเล็กน้อย */
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2); /* เพิ่มเงาเมื่อ hover */
+}
+
+.btn-login:active {
+  transform: translateY(0); /* เมื่อกดปุ่มจะกลับสู่ตำแหน่งเดิม */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* เงาลดลงเมื่อกด */
+}
+
+/* แสดงโหลดระหว่างรอการล็อกอิน */
+.spinner-border {
+  margin-right: 10px;
+}
+
+/* Custom Checkbox Styling */
+.form-check-input {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #FF8C00; /* Add a border color matching your theme */
+  border-radius: 5px; /* Add a slight rounding to the edges */
+  background-color: #ffffff; /* Default background */
+  transition: all 0.3s ease-in-out;
+  appearance: none; /* Remove default browser styles */
+}
+
+.form-check-input:checked {
+  background-color: #FF8C00; /* Background color when checked */
+  border-color: #FF8C00; /* Border color when checked */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3E%3Cpath d='M13.485 1.93a.75.75 0 1 1 1.03 1.09l-8.001 8.5a.75.75 0 0 1-1.08-.016L1.47 7.381a.75.75 0 0 1 1.08-1.04l3.44 3.575 7.495-7.986z'/%3E%3C/svg%3E"); /* Custom checkmark */
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.form-check-input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 140, 0, 0.5); /* Add a glowing effect on focus */
+}
+
+.form-check-label {
+  padding-left: 10px; /* Add spacing between checkbox and label */
+  font-size: 1rem; /* Adjust the font size for better readability */
+  color: #1f1717; /* Text color matching your theme */
+}
